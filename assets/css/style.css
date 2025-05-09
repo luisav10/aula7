@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: 	#48bf53;
+    background-image: url(https://images.vexels.com/media/users/3/328335/isolated/preview/a987d7ade454f920347a0d6b8af2b70f-curso-de-trevo-verde.png);
+    background-size: 80px;
+}
+@font-face {
+    font-family: betano;
+    src: url(../fonts/fire_hole/Fire\ Hole.otf);
+}
+@font-face {
+    font-family: simples;
+    src: url(../fonts/simpletix/simpletix.otf);
+}
+div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h1 {
+    text-align: center;
+    color: 	#004d25;
+    font-size: 100px;
+    font-family: betano;
+    text-shadow: 1px 1px 2px #003118;
+    margin: 10px;
+}
+span {
+    color: #11823b;
+}
+h2 {
+    text-align: center;
+    color:	white;
+    background-color: #11823abb;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: simples;
+    text-shadow: 1px 1px 2px #4d4d4d;
+    font-size: 30px;
+}
+form fieldset {
+    background-color: #11823abb;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    gap: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: solid 5px 	#004d25;
+}
+form fieldset select {
+    padding: 15px;
+}
+form fieldset legend {
+    text-align: center;
+    font-size: 40px;
+    color: 	#004d25;
+    font-family: simples;
+    text-shadow: 1px 1px 2px #003118;
+}
+form fieldset input {
+    padding: 15px;
+    font-size: 20px;
+}
+form fieldset input[type="submit"]{
+    width: 15vw;
+    height: 10vh;
+    margin: auto;
+    margin-top: 40px;
+}
+form fieldset input[type="submit"]:hover{
+    background-color: 	#11823b;
+    cursor: pointer;
+    border: solid 3px 	#004d25;
+}
+label {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: 	#003a1c;
+    margin-top: 10px;
+}
