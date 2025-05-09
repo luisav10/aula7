@@ -4,7 +4,7 @@
 body {
     background-color: 	#48bf53;
     background-image: url(https://images.vexels.com/media/users/3/328335/isolated/preview/a987d7ade454f920347a0d6b8af2b70f-curso-de-trevo-verde.png);
-    background-size: 80px;
+    background-size: 100px;
 }
 @font-face {
     font-family: betano;
@@ -25,6 +25,10 @@ h1 {
     font-family: betano;
     text-shadow: 1px 1px 2px #003118;
     margin: 10px;
+    background-color: #ffffff10;
+    margin-top: 0;
+    padding: 20px;
+    box-shadow: 4px 5px 4px #00311875;
 }
 span {
     color: #11823b;
@@ -51,6 +55,7 @@ form fieldset {
     margin-bottom: 50px;
     margin-top: 50px;
     border: solid 5px 	#004d25;
+    box-shadow: 4px 5px 4px #003118;
 }
 form fieldset select {
     padding: 15px;
